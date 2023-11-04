@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import InventoryItem from './InventoryItem/InventoryItem';
 import Blank from './Blank/Blank';
 import LoginForm from './LoginForm/LoginForm';
+import BlogPostWriter from './BlogPostWriter/BlogPostWriter';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <InventoryItem name="garbus" price="100"/>
           <InventoryItem name="konik" price="99"/>
           {/* <Blank /> */}
-          <LoginForm /> 
+          {/* <LoginForm />  */}
+          <BlogPostWriter title="Blog Post Writer"/>
     </div>
   );
 }
