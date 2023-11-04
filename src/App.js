@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './HelloWorld/HelloWorldArrow';
-import Greetings from './Greetings/Greetings';
-import GreetingsClass from './Greetings/GreetingsClass';
-import UsersList from './UserList/UserList';
+import Header from './Header/Header';
+import InventoryItem from './InventoryItem/InventoryItem';
+import Blank from './Blank/Blank';
+
 
 function App() {
   return (
       <div className="App">
-          <HelloWorld />
-          <Greetings name="Bartosz" />
-          <GreetingsClass name="Dziubku" />
-          <UsersList />
+          <Header title="hurtownia badziewia"/>
+          <InventoryItem name="garbus" price="100"/>
+          <InventoryItem name="konik" price="99"/>
+          {/* <Blank /> */}
     </div>
   );
 }
