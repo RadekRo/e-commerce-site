@@ -14,13 +14,15 @@ class LifeCycle extends Component {
     componentDidUpdate(prevProps, prevState) {
         console.log("ComponentDidUpdate")
         console.log("Cycle: " + this.state.cycle)
+
         console.log("prevProp:", prevProps)
         console.log("prevState:", prevState)
     }
 
     componentDidMount() {
         console.log("ComponentDidMount")
-
+        this.title = "New title"
+        console.log(this.title)
         setInterval(
             () => this.setState({cycle : this.state.cycle + 1}), 5000
         )
@@ -29,7 +31,7 @@ class LifeCycle extends Component {
     render() {
         console.log("Render")
         return (<div>
-            <h1>Lifecycle</h1>
+            <h1>{this.title}</h1>
             {this.state.cycle}
         </div>)
     }

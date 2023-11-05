@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header/Header';
-import InventoryItem from './InventoryItem/InventoryItem';
-import Blank from './Blank/Blank';
-import LoginForm from './LoginForm/LoginForm';
-import BlogPostWriter from './BlogPostWriter/BlogPostWriter';
-import GameResult from './GameResult/GameResult';
-import LifeCycle from './LifeCycle/LifeCycle';
+//import Header from './Header/Header';
+//import InventoryItem from './InventoryItem/InventoryItem';
+//import Blank from './Blank/Blank';
+//import LoginForm from './LoginForm/LoginForm';
+//import BlogPostWriter from './BlogPostWriter/BlogPostWriter';
+//import GameResult from './GameResult/GameResult';
+//import LifeCycle from './LifeCycle/LifeCycle';
+import Quiz from './Quiz/Quiz';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
           <Blank />
           <BlogPostWriter title="Blog Post Writer"/>
         <GameResult teamOne="LECHIA" teamTwo="ARKA" />
-        <LoginForm />  */}
         <LifeCycle />
+        <LoginForm />  */}
+        <Quiz />
     </div>
   );
 }
