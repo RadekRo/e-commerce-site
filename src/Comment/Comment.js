@@ -12,7 +12,7 @@ class Comment extends Component {
             <p>{this.props.text}</p>
             <img src={this.props.image} />
             
-            <button>answer</button>
+           
 
             
             

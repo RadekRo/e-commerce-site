@@ -46,7 +46,7 @@ class Comments extends Component {
             text={this.state.comments[0].text}
             image={this.state.comments[0].image}
             />
-            
+             <button >answer</button>
 
         </div>)
     }
