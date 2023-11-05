@@ -7,7 +7,8 @@ import './App.css';
 //import BlogPostWriter from './BlogPostWriter/BlogPostWriter';
 //import GameResult from './GameResult/GameResult';
 //import LifeCycle from './LifeCycle/LifeCycle';
-import Quiz from './Quiz/Quiz';
+//import Quiz from './Quiz/Quiz';
+import Comments from './Comments/Comments';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <GameResult teamOne="LECHIA" teamTwo="ARKA" />
         <LifeCycle />
         <LoginForm />  */}
-        <Quiz />
+        <Comments />
     </div>
   );
 }
